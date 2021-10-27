@@ -1,7 +1,6 @@
 # Boltzmann
-### boltzmann is a CLI tool for research, development, and execution for financial markets
+### Boltzmann is a CLI tool for research, development, and execution for financial markets
 
----
 
 ## Key Features
 
