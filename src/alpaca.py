@@ -4,7 +4,7 @@ import alpaca_trade_api;
 
 load_dotenv();
 
-class Alpaca:
+class AlpacaBroker:
     
     def __init__(self, live=False):
         self.live = live
