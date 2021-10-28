@@ -10,5 +10,33 @@
     * (for crypto maybe use ccxt)?
 * Portfolio risk analysis and management system
 
+## Use Cases
+
+### Data
+Download historical data into files. Open data files. Load data directly into memory from request. 
+Single symbol and dates --> load all datatypes --> create research forms (excel, pdf)
+
+**Data Types**:
+* Market Data
+* Fundamental data
+* News Data 
+* Social Media
+
+Find interesting correlations in data - ML?
+
+Stream live data sources
+
+### Execution
+
+Allow same interface execution for multiple brokerages
 
 
+### Account Management
+
+Allow transfers between brokerages
+Allow arbitrage
+
+
+### Backtesting
+
+Maybe in the future. 
