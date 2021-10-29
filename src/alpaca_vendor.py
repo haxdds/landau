@@ -12,16 +12,13 @@ class AlpacaVendor(MarketDataVendor):
 
     def __init__(self, name='Alpaca'):
         super().__init__(name)
-        print(os.getenv('ALPACA_API_KEY'))
+        
         self.alpaca = REST(os.getenv('ALPACA_API_KEY'), os.getenv('ALPACA_API_SECRET'), "https://data.alpaca.markets/v2")
-
 
     def get_historical_bar(self, symbol: str, start_date: datetime, end_date: datetime, resolution: DataResolution):
         
         start_date_str = start_date.strftime("%Y-%m-%d")
         end_date_str = end_date.strftime("%Y-%m-%d")
-
-        print(start_date_str, end_date_str)
 
         if resolution == DataResolution.Minute:
             tf = TimeFrame.Minute
