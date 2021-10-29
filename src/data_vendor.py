@@ -8,7 +8,7 @@ class DataVendor(ABC):
         self.name = name
     
     @abstractmethod
-    def get_historical_bars(self, symbol: str, start_date: datetime, end_date: datetime, resolution: TimeFrame):
+    def get_historical_bar(self, symbol: str, start_date: datetime, end_date: datetime, resolution: TimeFrame):
         pass
     
     @abstractmethod
@@ -16,7 +16,7 @@ class DataVendor(ABC):
         pass
     
     @abstractmethod
-    def get_historical_quotes(self, symbol: str, start_date: datetime, end_date: datetime, resolution: TimeFrame=None):
+    def get_historical_quote(self, symbol: str, start_date: datetime, end_date: datetime, resolution: TimeFrame=None):
         pass
 
     @abstractmethod
