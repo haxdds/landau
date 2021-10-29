@@ -40,3 +40,8 @@ Allow arbitrage
 ### Backtesting
 
 Maybe in the future. 
+
+
+## How Data Flows
+
+APIs --> DataFrame --> Hub --> Neat Objects --> Use Case
