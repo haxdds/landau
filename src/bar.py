@@ -1,17 +1,25 @@
-from base_data import BaseData
+from data import Data
+from datetime import datetime
+class Bar(Data):
 
-class Bar(BaseData):
-
-    def __init__(self, time, open, high, low, close, volume=0, exchange=''):
+    def __init__(
+        self, 
+        symbol: str, 
+        time: datetime, 
+        open: float, 
+        high: float, 
+        low: float, 
+        close: float, 
+        volume: float=0, 
+        exchange: str=''):
         
-        super().__init__(time, close)
+        super().__init__(symbol, time, close)
 
         self.exchange = exchange
 
         self.open = open
         self.high = high
         self.low = low
-        self.close = close
 
         self.volume = volume
         

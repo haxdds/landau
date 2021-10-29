@@ -1,9 +1,9 @@
 from enum import Enum
 
 class DataResolutionUnit(Enum):
-    Minute = "Min"
-    Hour = "Hour"
-    Day = "Day"
+    Minute = "M"
+    Hour = "H"
+    Day = "D"
 
 class DataResolution:
     """Represents a unit of data resolution"""
