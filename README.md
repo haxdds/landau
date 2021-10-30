@@ -26,6 +26,7 @@ Find interesting correlations in data - ML?
 
 Stream live data sources
 
+## Selector
 ### Execution
 
 Allow same interface execution for multiple brokerages
