@@ -26,6 +26,10 @@ Find interesting correlations in data - ML?
 
 Stream live data sources
 
+***How Data Flows***
+
+APIs --> DataFrame --> Neat Objects --> Use Case
+
 ## Selector
 ### Execution
 
@@ -43,6 +47,3 @@ Allow arbitrage
 Maybe in the future. 
 
 
-## How Data Flows
-
-APIs --> DataFrame --> Hub --> Neat Objects --> Use Case
