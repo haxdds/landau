@@ -1,5 +1,5 @@
-# Boltzmann
-### Boltzmann is a CLI tool for research, development, and execution for financial markets
+# Landau
+### Landau is a CLI tool for research, development, and execution for financial markets
 
 
 ## Key Features
