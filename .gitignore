@@ -1,4 +1,9 @@
 # Byte-compiled / optimized / DLL files
 /src/__pycache__/
 
-.env
+# jetbrains
+.idea
+
+# secrets
+constants.py
+
